@@ -1,16 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package poo._equals;
 
-/**
- *
- * @author marcos
- */
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String letra = "b";
+
+        if (letra.equals("a")) {
+            System.out.println(1);
+        } else if (letra.equals("b")) {
+            System.out.println(2);
+        } else {
+            System.out.println(3);
+        }
+
     }
 }
